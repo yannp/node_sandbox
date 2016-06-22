@@ -2,3 +2,4 @@ Express generator is installed in the project, not globally. So remember to add 
 
 Use the foreman package: npm install -g foreman. Create a .env file at the root of the project.
 
+See http://sublimetexttips.com/how-to-add-sass-support-in-sublime-text/ for sass syntax highlight on Sublime Text.
