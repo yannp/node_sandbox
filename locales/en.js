@@ -1,4 +1,4 @@
 {
 	"express": "Express",
-	"welcome %s": "Welcome %s"
+	"welcome %s": "Welcome to %s"
 }
