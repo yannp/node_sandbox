@@ -22,10 +22,11 @@ var sassMiddleware = require('node-sass-middleware');
 app.use(sassMiddleware({
     /* Options */
     src: path.join(__dirname, 'sass'),
-    dest: path.join(__dirname, 'public'),
+    dest: path.join(__dirname, 'public/stylesheets'),
     debug: true,
     outputStyle: 'compressed',
-    //prefix:  '/stylesheets'  // Where prefix is at <link rel="stylesheets" href="prefix/style.css"/>
+    indentedSyntax: true,
+    prefix:  '/stylesheets'  // Where prefix is at <link rel="stylesheets" href="prefix/style.css"/>
 }));
 // Note: you must place sass-middleware *before* `express.static` or else it will
 // not work.
